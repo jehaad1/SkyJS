@@ -3,7 +3,7 @@ import "./style.css";
 const Root = document.querySelector(":root");
 
 SkyComponents({
-    SkyHeader: function(Properties) {
+    SkyHeader: function() {
         return `<div id="Header">
         <h1>Sky.js Docs</h1>
         <button id="Search">Search</button>
