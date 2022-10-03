@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Skyjs.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky.js - Docs</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css" />
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/ui-skyjs@latest/sky.js"></script>
+
+<body>
+    <div id="SearchOverlay" class="hide">
+        <div id="SearchContainer">
+            <input id="SearchBar" placeholder="Search">
+            <span id="SearchClose">Close</span>
+        </div>
+        <h1 id="NoResults">No search results found</h1>
+        <ul id="Results"></ul>
+    </div>
+    <div id="App">
+        <SkyHeader SkyComponent></SkyHeader>
+        <ul id="Docs" class="section">
+            <li class="section">Memories
+                <ul class="section hisde">
+                    <li>Create Memory</li>
+                    <li>Create HTML Memory</li>
+                    <li>Update Memory</li>
+                    <li>Get Memory</li>
+                    <li>Delete Memory</li>
+                    <li>Watch Memory</li>
+                    <li>Stop Watch Memory</li>
+                </ul>
+            </li>
+            <li class="section">Editing Elements
+                <ul class="section hside">
+                    <li>Mapping Children</li>
+                    <li>Filtering Children</li>
+                    <li>Merging Children</li>
+                    <li>Reversing Children</li>
+                </ul>
+            </li>
+            <li>Conditional Rendering</li>
+            <li>Loops Rendering</li>
+            <li>Components</li>
+            <li>Trees</li>
+            <li>Scripting</li>
+        </ul>
+        <div id="DocSection"></div>
+    </div>
+</body>
+<script type="module" src="/main.js"></script>
+
+</html>
