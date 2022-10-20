@@ -6,26 +6,44 @@
     --color5: #656CAE;
     --color6: hsl(0, 0%, 10%);
     --color7: hsl(0, 0%, 99%);
-    --bg-color: var(--color6);
+    --bg-color: var(--color6); 
     --font-color: var(--color7);
 }
-
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color5) var(--font-color);
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--color7);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:  var(--color5);;
+  }
 html,
 body {
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     box-sizing: border-box;
-    user-select: none;
-    overflow: hidden;
+    /* user-select: none; */
+    overflow-x: hidden;
 }
 
-#App {
-    width: 100%;
+#DocSection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     height: 100%;
-    overflow: hidden;
     background-color: var(--bg-color);
     color: var(--font-color);
 }
@@ -41,37 +59,42 @@ body {
     position: fixed;
     background-color: var(--color5);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
 }
-
-#Header h1 {
-    color: var(--color7);
+.header-buttons {
+    display: flex ;
 }
+#Header .logo {
+margin: 0.825rem
+;}
 
 #Search {
-    position: absolute;
-    right: 50px;
-    width: 100px;
+    /* position: absolute; */
+    width: 50px;
     height: 34px;
-    font-size: 24px;
+    font-size: 14px;
     border: none;
-    border-radius: 5px;
-    background-color: var(--font-color);
-    color: var(--bg-color);
-    cursor: pointer;
+    border-radius: 2px;
+    background-color: var(--color5);
+    color: #8d8888;
+cursor: pointer;
     font-weight: bold;
+    text-align: center;
+    margin: 0 1.825rem;
+
 }
 
 #Toggler {
-    position: absolute;
-    right: 10px;
+    /* position: absolute; */
     font-size: 24px;
     padding: 5px;
     border-radius: 5px;
-    background-color: var(--font-color);
     color: var(--bg-color);
     cursor: pointer;
+    margin: 0 1.025rem;
+
 }
 
 #SearchOverlay {
@@ -84,6 +107,7 @@ body {
 }
 
 #SearchContainer {
+    
     position: relative;
     display: flex;
     width: 100%;
@@ -93,24 +117,26 @@ body {
 
 #SearchBar {
     position: relative;
-    top: 5px;
+    top: 1rem;
     left: 5px;
     width: calc(100% - 112px);
-    font-size: 32px;
+    font-size: 22px;
     border-radius: 4px;
-    border: solid 2px var(--font-color);
+    border: solid 2px var(--color5);
     background-color: var(--bg-color);
     color: var(--font-color);
     outline: none;
+    padding: 0.525rem;
+    height: 24px;
 }
 
 #SearchClose {
     position: relative;
     margin-left: auto;
-    top: 5px;
-    right: 10px;
-    font-size: 32px;
-    color: var(--font-color);
+    top: 1rem;
+    right: 15px;
+    font-size: 18px;
+    color: var(--color5);
     cursor: pointer;
 }
 
@@ -139,17 +165,36 @@ body {
 }
 
 #Docs {
-    position: absolute;
-}
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #3B3B77;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: #fff;
+  }
+  #Docs li{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+  
+  }
+
+  
 
 #Docs li:hover {
     opacity: 0.90;
 }
 
 #DocSection {
-    width: 100%;
+    max-width: 100%;
     height: calc(100% - 60px);
     overflow-y: scroll;
+}
+#title p{
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .hide {
@@ -158,7 +203,7 @@ body {
 
 ::placeholder {
     color: var(--font-color);
-    opacity: 1;
+    opacity: 0.89;
 }
 
  :-ms-input-placeholder {
@@ -168,3 +213,102 @@ body {
  ::-ms-input-placeholder {
     color: var(--font-color);
 }
+/* media queries */
+
+@media screen and (max-width: 700px) {
+    #Docs {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      flex-wrap: wrap;
+      break-inside: avoid;
+
+    }
+.nav-links{
+    display: none;
+}.nav-links.responsive{
+    display: flex;
+}
+
+    #DocSection {
+        max-width: 100%;
+        overflow-y: scroll;
+        margin-left: 0;
+    }
+    
+    #Header, #Search,#Toggler{
+        display: flex;
+        position: static;
+        flex-wrap: wrap;
+
+    }
+    #header{
+        min-height: 100%;
+    }
+    #Docs #section {  
+        display: flex;
+        flex-wrap: wrap;
+
+              flex-direction: row;
+    }
+    #Docs li{
+break-inside: avoid;
+font-size: 14px;
+
+  }
+  #title p{
+    font-size: 18px;
+  }
+  #Docs li .responsive {
+    display: block;
+  }
+    #HeaderPlace {
+        width: 100%;
+        max-height: 1800px;
+        background-color: var(--color5);
+    
+    }
+    .header-buttons {
+        flex-wrap: wrap;
+    }
+  }
+  .header-buttons {
+margin-right: 10px;  
+}
+  .menu-btn{
+    background-color: transparent;
+  }
+
+  
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+#DocSection{
+    overflow: hidden;
+}
+footer{
+    bottom: 0;
+    background-color: #FFF271;
+}
+
+
+@media screen and (min-width: 700px) {
+    #DocSection,footer{
+        overflow: hidden;
+    margin-left:200px;
+    }
+    .menu-btn{
+        display: none;
+    }
+}
+
+
