@@ -310,5 +310,98 @@ footer{
         display: none;
     }
 }
+/*.box-canvas{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 20vmin;
+    margin-bottom: 20vmin;
+    width: 45vmin;
+    height:60vmin;
+  }
+  
+  .side {
+    position: absolute;
+    width: 35vmin;
+    height: 9vmin;
+    background: linear-gradient(to bottom, 
+    #DE191A,
+      #DE191A 3vmin,
+      white 3vmin,
+      white 6vmin,
+      #0D72B8 6vmin
+    );
+  }
+  
+  .side.top {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4.5vmin;
+    clip-path: polygon(8% 0%, 92% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .side.left {
+    transform: rotate(60deg);
+    transform-origin: bottom left;
+    border-radius: 0 0 0 20%;
+  }
+  
+  .side.right {
+    right: 0;
+    transform: rotate(-60deg);
+    transform-origin: bottom right;
+    border-radius: 0 0 20% 0;
+    width: 40vmin;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
+  }
+  
+  .hook {
+    position: absolute;
+    width: 11vmin;
+    height: 0.5vmin;
+    border: 1vmin solid #BFBDBD;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38vmin;
+    border-radius: 50% 50% 0 0;
+  }
+  
+  .medal {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18vmin;
+    height: 18vmin;
+    background: radial-gradient(at top left,#E2E3E3, #BFBDBD);
+    top: 40.5vmin;
+    clip-path: circle(50% at 50% 41%);
+    overflow: hidden;
+  }
+  
+  .medal::before {
+    content: '';
+    position: absolute;
+    width: 16vmin;
+    height: 16vmin;
+    border: 0.5vmin dotted #878585;
+    border-radius: 50%;
+    bottom: 2vmin;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .medal::after {
+    content: '';
+    position: absolute;
+    width: 18vmin;
+    height: 18vmin;
+    background: linear-gradient(55deg,
+      rgba(255,255,255,0.4),
+      rgba(255,255,255,0.4) 50%,
+      transparent 60%
+    );
+  }
+*/
+
 
 
