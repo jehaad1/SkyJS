@@ -1,5 +1,12 @@
 import "./style.css";
 
+const navToggle = document.querySelector(".menu-btn");
+const links = document.querySelector(".nav-links");
+
+navToggle.addEventListener('click', () => {
+    links.classList.toggle("responsive");
+});
+
 const Root = document.querySelector(":root");
 
 SkyComponents({
