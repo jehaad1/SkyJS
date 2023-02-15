@@ -7,12 +7,14 @@
 ```
 
 ### ES Module Download:
-``` import { 
+```js
+import { 
     SkyAutoRender,
     SkyMemory,
     SkyHTMLMemory,
     SkyComponent,
-    SkyComeback } from "https://unpkg.com/ui-skyjs@latest/sky.js"```
+    SkyComeback } from "https://unpkg.com/ui-skyjs@latest/sky.js"
+```
 <br>
 
 ### Twitter: @ui_skyjs
