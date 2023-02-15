@@ -7,11 +7,12 @@
 ```
 
 ### ES Module Download:
-- Coming Soon..
-<!-- - Add This Script Above Your "Body" Tag.
-``` import from  ``` -->
+``` import { 
+    SkyAutoRender,
+    SkyMemory,
+    SkyHTMLMemory,
+    SkyComponent,
+    SkyComeback } from "https://unpkg.com/ui-skyjs@latest/sky.js"```
 <br>
-
-### [Get Started With Our Docs!](https://ui-skyjs.net)
 
 ### Twitter: @ui_skyjs
