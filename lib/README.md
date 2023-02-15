@@ -3,7 +3,7 @@
 ### CDN Download:
 - Add This Script Above Your "Body" Tag.
 ```js
-<script defer src="https://unpkg.com/ui-skyjs@latest/sky.js"></script>
+<script defer src="https://unpkg.com/ui-skyjs@latest/cdn.js"></script>
 ```
 
 ### ES Module Download:
