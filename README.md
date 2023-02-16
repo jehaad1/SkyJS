@@ -26,4 +26,4 @@ Sky.js don't use any compiler.
 ```js
 import { SkyAutoRender } from "https://unpkg.com/ui-skyjs@latest/sky.js"
 ```
-Now Start With The [https://github.com/jehaad1/Sky.js/Docs.md](Docs).
+Now Start With The [Docs](https://github.com/jehaad1/Sky.js/Docs.md).
