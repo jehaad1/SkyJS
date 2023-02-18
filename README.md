@@ -1,7 +1,7 @@
 # Sky.js
 A JavaScript Library for Building Interactive Web UIs
 
-## Overview
+## FAQs
 
 ### - Does The Library Fast?
 - Sky.js is built entirely in JavaScript, which means that its speed is the same as the native speed of JavaScript in web browsers. Sky.js does not use any compilers.
