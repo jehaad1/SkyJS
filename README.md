@@ -22,4 +22,4 @@ A JavaScript Library for Building Interactive Web UIs
 ```js
 import { SkyAutoRender } from "https://unpkg.com/ui-skyjs@latest/sky.js"
 ```
-Now, start with the [docs](https://github.com/jehaad1/Sky.js/blob/main/Docs.md).
+After downloading Sky.js, you can start by referring to the [docs](https://github.com/jehaad1/Sky.js/blob/main/Docs.md).
