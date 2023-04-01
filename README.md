@@ -14,7 +14,7 @@ A JavaScript Library for Building Interactive Web UIs
 ### CDN Download:
 - Add this script above your "body" tag:
 ```js
-<script defer src="https://unpkg.com/ui-skyjs@latest/cdn.js"></script>
+<script src="https://unpkg.com/ui-skyjs@latest/cdn.js"></script>
 ```
 
 ### ES Module Download:
