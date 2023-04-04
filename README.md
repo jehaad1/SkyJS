@@ -23,15 +23,4 @@ A JavaScript Library for Building Interactive Web UIs
 import { Document } from "https://unpkg.com/ui-skyjs@latest/sky.js"
 ```
 
-```jsx
-function Logo() {
-let [rotation, setRotation] = State(0);
-setInterval(() => {
-setRotation(rotation => rotation === 360 ? 0 : ++rotation);
-}, 10);
-return Document(<span>
-<img style="rotate: ${rotation()}deg" src="/vite.svg" />
-</span>);
-};
-```
 After downloading Sky.js, you can start by referring to the [docs](https://github.com/jehaad1/Sky.js/blob/main/Docs.md).
