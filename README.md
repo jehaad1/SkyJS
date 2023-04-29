@@ -23,8 +23,4 @@ A JavaScript Library for Building Interactive Web UIs
 import { Document } from "https://unpkg.com/ui-skyjs@latest/sky.js"
 ```
 
-```jsx
-<html>gijwgijwg</html>
-```
-
 After downloading SkyJS, you can start by referring to the [docs](https://github.com/jehaad1/SkyJS/blob/main/Docs.md).
