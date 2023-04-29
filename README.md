@@ -21,18 +21,6 @@ A JavaScript Library for Building Interactive Web UIs
 - Add this to your module script.
 ```js
 import { Document } from "https://unpkg.com/ui-skyjs@latest/sky.js"
-function SimpleTimerWithMinutes() {
-const [seconds, setSeconds] = State(0);
-const timeFormat = Merge(seconds(), (seconds) => {
-return `${seconds / 60)}min and ${seconds % 60}s`
-});
-
-setInterval(() => {
-setSeconds(seconds => ++seconds);
-}, 1000);
-
-return Document(`<p>The time is: ${timeFormat}</p>`);
-};
 ```
 
 After downloading SkyJS, you can start by referring to the [docs](https://github.com/jehaad1/SkyJS/blob/main/Docs.md).
