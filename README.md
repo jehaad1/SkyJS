@@ -21,6 +21,8 @@ A JavaScript Library for Building Interactive Web UIs
 - Add this to your module script.
 ```js
 import { Document } from "https://unpkg.com/ui-skyjs@latest/sky.js"
+let g = Document()
+f(g)
 ```
 
 After downloading SkyJS, you can start by referring to the [docs](https://github.com/jehaad1/SkyJS/blob/main/Docs.md).
