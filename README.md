@@ -1,4 +1,3 @@
-## Get Started With Our [Docs](https://skyjs.dev).
 <p align="center">
  <a href="https://skyjs.dev"><img width="500px" src="https://github.com/jehaad1/SkyJS/assets/76432762/453d712e-e694-479f-aeb3-abc4e3917581" align="center" alt="Sky JS" /></a>
  <h2 align="center"> Sky JS </h2>
@@ -28,4 +27,12 @@
     <img alt="GitHub" src="https://img.shields.io/github/license/jehaad1/SkyJS" />
   </p>
 
+## Getting Started with Installation
+```
+npm install 
+```
+
+For more details, see [the docs page](https://skyjs.dev).
+
+## Learn Sky JS
 
