@@ -1,7 +1,8 @@
 <p align="center">
  <a href="https://skyjs.dev"><img width="500px" src="https://github.com/jehaad1/SkyJS/assets/76432762/453d712e-e694-479f-aeb3-abc4e3917581" align="center" alt="Sky JS" /></a>
-<a align="center" href="https://skyjs.dev"><h2>Sky JS</h2></a>
+<h2 align="center">Sky JS</h2>
  <p align="center">A JavaScript Library for Building Interactive Web UIs</p>
+ <a align="center" href="https://skyjs.dev">Documentation</a>
 </p>
   <p align="center">
 <!--     <a href="https://github.com/jehaad1/SkyJS/actions">
