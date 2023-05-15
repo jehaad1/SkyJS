@@ -11,6 +11,10 @@
     <a href="https://github.com/jehaad1/SkyJS/graphs/contributors">
       <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/jehaad1/SkyJS" />
     </a>
+   <a href="https://github.com/jehaad1/SkyJS/stargazers">
+     <img alt="GitHub stars" src="https://img.shields.io/github/stars/jehaad1/SkyJS?style=social" />
+   </a>
+
     <a href="https://codecov.io/gh/jehaad1/SkyJS">
       <img src="https://codecov.io/gh/jehaad1/SkyJS/branch/master/graph/badge.svg" />
     </a>
