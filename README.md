@@ -1,5 +1,5 @@
 <p align="center">
- <a href="https://skyjs.dev"><img width="500px" src="https://skyjs.dev/Header.png" align="center" alt="Sky JS" /></a>
+ <a href="https://skyjs.dev"><img width="100%" src="https://skyjs.dev/Header.png" align="center" alt="Sky JS" /></a>
 <h2 align="center">SkyJS</h2>
  <p align="center">A JavaScript Library for Building Interactive Web UIs</p>
 </p>
