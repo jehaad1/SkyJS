@@ -27,12 +27,4 @@
     <img alt="GitHub" src="https://img.shields.io/github/license/jehaad1/SkyJS" />
   </p>
 
-## Getting Started with Installation
-```
-npm install 
-```
-
-For more details, see [the docs page](https://skyjs.dev).
-
-## Learn Sky JS
-
+Visit [The Docs Page](https://skyjs.dev).
