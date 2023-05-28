@@ -1,8 +1,8 @@
-<p align="center">
+<div align="center">
  <a href="https://skyjs.dev"><img src="https://skyjs.dev/Header.png" align="center" alt="Sky JS" /></a>
 <h2 align="center">SkyJS</h2>
  <p align="center">A JavaScript Library for Building Interactive Web UIs</p>
-</p>
+</div>
   <p align="center">
     <a href="https://github.com/jehaad1/SkyJS/graphs/contributors">
       <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/jehaad1/SkyJS" />
