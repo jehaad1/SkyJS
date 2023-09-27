@@ -21,4 +21,59 @@
     </a>
   </p>
 
-## Visit [The Docs Page](https://skyjs.dev).
+#### You Can Visit the Official Website - [The Docs Page](https://skyjs.dev).
+## Getting Started
+### Installation
+#### 1. CDN Installation
+
+> Add this script above your "body" tag:
+
+```html
+<script src="https://unpkg.com/ui-skyjs@latest/cdn.js"></script>
+```
+
+#### 2. ES Module Installation
+
+> Install the library package:
+
+``npm i ui-skyjs``
+
+#### 2. Without Installation
+
+> Import it from CDN in your Javascript File without installing the package:
+
+```js
+import { Document } from "https://unpkg.com/ui-skyjs@latest/module.js"
+```
+
+### Example Basic Usage
+#### Documents
+
+> 1. Create your document
+
+```js
+const myDoc = Document("<h1>First Document</h1>"); 
+```
+
+> 2. Add it to the DOM
+
+```js
+document.body.appendChild(myDoc);
+```
+
+#### States
+
+> 1. Create your state
+
+```js
+ const [myState, setMyState] = State(1); 
+ const myDoc = Document(`<h2>The state value is: ${myState()}</h2>`);
+```
+
+> 2. Add it to the DOM
+
+```js
+document.body.appendChild(myDoc); 
+```
+
+#### You Can Follow up by visiting the Official Website - [The Docs Page](https://skyjs.dev).
